@@ -1,0 +1,33 @@
+{
+  "name": "string-calculator-kata",
+  "version": "1.0.0",
+  "description": "This is a working solution of the string-calulator-kata by Rishikesh Kumar.",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "prettier-standard './**/*.{json,js,md}'",
+    "format:check": "prettier-standard --check './**/*.{json,js,md}'",
+    "lint": "eslint --fix './**/*.js'",
+    "lint:check": "eslint './**/*.js'",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessio-libardi/string-calculator-kata.git"
+  },
+  "author": "Alessio Libardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessio-libardi/string-calculator-kata/issues"
+  },
+  "homepage": "https://github.com/alessio-libardi/string-calculator-kata#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "jest": "^26.6.3",
+    "prettier-config-standard": "^4.0.0",
+    "prettier-standard": "^16.4.1"
+  }
+}
